@@ -34,6 +34,8 @@ Pas trop technique
 
 # big bang
 
+![sfeir-icons](github)
+
 
 ##==##
 
@@ -43,9 +45,10 @@ Pas trop technique
 
 ##==##
 
-<!-- .slide: class="transition" -->
 
-# big bang -> kubernetes
+Essai image
+
+![badge second-badge](./assets/images/GDG-Logo-carre.png)
 
 ##==##
 
