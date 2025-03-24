@@ -1,18 +1,8 @@
-
-<!-- .slide: class="transition-bg-sfeir-1" -->
-# Conformité k8s avec Kyverno
-## Un outil de la CNCF qui a le vent en poupe !
-
-##==##
-<!-- .slide: class="transition-bg-sfeir-1" -->
-# Il était une fois Kyverno
-
+<!-- .slide: data-background="./assets/kubernetes/iletaitunefois.png"-->
 Notes:
 Question : Qui utilise Kubernetes ? <BR>
 Question : Qui a déjà entendu parlé de Kyverno ?
 
-##==##
-<!-- .slide: data-background="./assets/kubernetes/iletaitunefois.png"-->
 
 ##==##
 <!-- .slide: class="transition-bg-sfeir-2" -->
@@ -21,12 +11,12 @@ Question : Qui a déjà entendu parlé de Kyverno ?
 ##==##
 <!-- .slide: class="flex-row center" -->
 ![h-600](./assets/bigbang.jpg)
-Tout commence toujours par le Big Bang : <BR> -13,8 milliards d'années
+Le début est toujours le Big Bang : <BR> -13,8 milliards d'années
 
 ##==##
 <!-- .slide: class="flex-row center" -->
 ![h-600](./assets/context/02-la-terre.png)
-La planète Terre : <BR> -4,5 milliards d'années
+Vient ensuite notre chère planète Terre : <BR> -4,5 milliards d'années
 
 ##==##
 <!-- .slide: class="flex-row center" -->
@@ -36,7 +26,7 @@ Invention de la roue : 4000 av J.C.
 ##==##
 <!-- .slide: class="flex-row center" -->
 ![h-600](./assets/context/11-Eniac.jpg)
-Eniac : 15 Février 1946
+Le premier ordinateur : L'Eniac, le 15 Février 1946
 
 ##==##
 <!-- .slide: class="flex-row center" -->
@@ -50,7 +40,7 @@ Linux : 25 Août 1991
 ![h-500](./assets/context/16-lxc.webp)
 ![h-500](./assets/context/17-docker.png)
 LXC : 6 Août 2008 <BR>
-Docker : 20 Mars 2023
+Docker : 20 Mars 2013
 
 ##==##
 <!-- .slide: class="flex-row center" -->
@@ -65,6 +55,7 @@ Les Noeuds sont alors appelés des minions...
     - Les équipes déploient des microservices
     - Il faut respecter le time to market
     - On démarre en production et on implémente le SRE  
+    - Tout semble parfait dans le meilleur des mondes...
 
 ##==##
 <!-- .slide: class="transition left sfeir-bg-2" -->

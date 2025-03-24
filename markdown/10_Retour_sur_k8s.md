@@ -1,5 +1,6 @@
 <!-- .slide: class="transition-bg-sfeir-2" -->
-# Retour sur kubernetes 
+# Revenons à kubernetes 
+## Afin de comprendre comment le gérer efficacement
 
 ##==##
 <!-- .slide: class="transition-bg-sfeir-2" -->

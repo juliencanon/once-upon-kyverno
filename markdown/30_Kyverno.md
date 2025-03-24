@@ -1,6 +1,7 @@
 
 <!-- .slide: class="transition-bg-sfeir-2" -->
 # Revenons à kyverno
+## Le 12 Juillet 2022 le projet rejoint la CNCF avec le statut "Incubation"
 
 
 ##==##
@@ -9,7 +10,7 @@
 
 - image
 - clean
-- gestion des exceptions
+- PolicyExceptions gestion des exceptions
 - background scans
 - auto-generation     https://kyverno.io/docs/writing-policies/autogen/
 - generation 
