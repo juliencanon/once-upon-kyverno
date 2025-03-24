@@ -1,181 +1,78 @@
-<!-- .slide: class="transition left sfeir-bg-2" -->
 
+<!-- .slide: class="transition-bg-sfeir-1" -->
 # Conformité k8s avec Kyverno
-
 ## Un outil de la CNCF qui a le vent en poupe !
 
 ##==##
+<!-- .slide: class="transition-bg-sfeir-1" -->
+# Il était une fois Kyverno
 
-<!-- .slide: class="transition" -->
-
-Un peu d'histoire...
-
-Chaque diapo montre une fonctionnalité du Thème SFEIR School
-
-
-<!-- .element: class="center" -->
+Notes:
+Question : Qui utilise Kubernetes ? <BR>
+Question : Qui a déjà entendu parlé de Kyverno ?
 
 ##==##
-
-# 1er share
-
-Un peu de contexte
-Pas trop technique
-
+<!-- .slide: data-background="./assets/kubernetes/iletaitunefois.png"-->
 
 ##==##
-
-<!-- .slide: class="transition" -->
-
-# big bang -> kubernetes
+<!-- .slide: class="transition-bg-sfeir-2" -->
+# Un peu de contexte
 
 ##==##
-
-
-# big bang
-
-![sfeir-icons](github)
-
+<!-- .slide: class="flex-row center" -->
+![h-600](./assets/bigbang.jpg)
+Tout commence toujours par le Big Bang : <BR> -13,8 milliards d'années
 
 ##==##
-
-<!-- .slide: class="transition" -->
-
-# big bang -> kubernetes
-
-##==##
-
-
-Essai image
-
-![badge second-badge](./assets/images/GDG-Logo-carre.png)
+<!-- .slide: class="flex-row center" -->
+![h-600](./assets/context/02-la-terre.png)
+La planète Terre : <BR> -4,5 milliards d'années
 
 ##==##
-
-<!-- .slide: class="transition" -->
-
-# big bang -> kubernetes
-
-##==##
-
-<!-- .slide: class="first-slide" sfeir-level="1" sfeir-techno="pwa" -->
-
-# deploiements, cronjobs, statefulset, networkpolicies, ingress, ...
-
+<!-- .slide: class="flex-row center" -->
+![h-600](./assets/context/5-la-roue.jpg)
+Invention de la roue : 4000 av J.C.
 
 ##==##
-
-<!-- .slide: class="with-code" -->
-
-# pas de latest
-
-pas de mount host
-
-pas de CVE
-
-capabilities, escalation
-
-referentiel kubescape
-
-duplicate hostname sur ingress
-
-
-
-<!-- .element: class="big-code" -->
+<!-- .slide: class="flex-row center" -->
+![h-600](./assets/context/11-Eniac.jpg)
+Eniac : 15 Février 1946
 
 ##==##
-
-<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="pwa" -->
-
-# trame
-
-adminssion controller
-schema
-
-gatekeeper
-  with rego
-
-pod security context 
-
-Kyverno
-
-Validation admission policy
-
-kyverno with CEL 
-
-Policies sur etagères
-
-Validation
-mutation
-image
-clean
-generation
-
-
-Prevent create
-background
-audit/enforce
-prevent delete (network policy)
-check deprecated
-Enforce deprecated
-
-
-
-
-minikube
-install Kyverno
-pod with latest
-pod without limits
-##==##
-
-<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="pwa" -->
-
-# démo time 
-
-minikube
-install Kyverno
-pod with latest
-pod without limits
-
-
-## **PWA 200**
-
-##--##
-
-<!-- .slide: class="with-code" -->
-
-# Code pour reproduire / Markdown
-
-```markdown
-<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="pwa" -->
-
-# **Bienvenue à la SFEIR School**
-
-## **PWA 200**
-```
-
-<!-- .element: class="big-code" -->
+<!-- .slide: class="flex-row center" -->
+![h-500](./assets/context/13-8086.jpg)
+![h-500](./assets/context/14-tux.png)
+Début du Personnal Computer : Mai 1976 <BR>
+Linux : 25 Août 1991
 
 ##==##
+<!-- .slide: class="flex-row center" -->
+![h-500](./assets/context/16-lxc.webp)
+![h-500](./assets/context/17-docker.png)
+LXC : 6 Août 2008 <BR>
+Docker : 20 Mars 2023
 
-<!-- .slide: class="first-slide" sfeir-level="3" sfeir-techno="pwa" -->
+##==##
+<!-- .slide: class="flex-row center" -->
+![h-600](./assets/context/18-kubernetes.webp)
+Kubernetes : 7 juin 2014 <BR>
+Les Noeuds sont alors appelés des minions...
 
-# **Bienvenue à la SFEIR School**
+##==##
+<!-- .slide: class="transition left sfeir-bg-2" -->
+![h-500](./assets/context/minions.png)
+## Le concept plaît et est vite adopté en entreprise
+    - Les équipes déploient des microservices
+    - Il faut respecter le time to market
+    - On démarre en production et on implémente le SRE  
 
-## **PWA 300**
+##==##
+<!-- .slide: class="transition left sfeir-bg-2" -->
+![h-500](./assets/context/minions2.webp)
+## L'entropie du système augmente...
+    - La définition des requests/limits manquent pour le CPU et la RAM
+    - Il est difficile de savoir à qui appartient telle ou telle application
+    - Les containers ne sont pas sécurisés (possibilité d'évasion)
+    - Les images proviennent de diverses registries, parfois obscures
+    - Une nomenclature serait la bienvenue
 
-##--##
-
-<!-- .slide: class="with-code" -->
-
-# Code pour reproduire / Markdown
-
-```markdown
-<!-- .slide: class="first-slide" sfeir-level="3" sfeir-techno="pwa" -->
-
-# **Bienvenue à la SFEIR School**
-
-## **PWA 300**
-```
-
-<!-- .element: class="big-code" -->
