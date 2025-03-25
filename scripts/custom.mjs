@@ -8,8 +8,8 @@ import {
             keyboard: {
               67: 'right',
               68: 'left',
-              69: 'up',
-              70: 'down'
+              72: 'right',
+              74: 'left
             }
           });
         }, 1000);
