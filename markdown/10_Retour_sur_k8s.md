@@ -18,8 +18,8 @@ Les requêtes sont émises par :
 ## La requête est modélisée par : 
 - ses données (sous forme de yaml ou json)
   - son chemin d'appel (apiVersion)
-  - l'objet concerné (king)
-  - les spécificications (specs)
+  - l'objet concerné (kind)
+  - les données à transmettre (specs)
 - Le verbe d'action (CRUD) traduit en verbe HTTP (POST, PUT, PATCH, DELETE, GET)
 
 

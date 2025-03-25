@@ -11,7 +11,7 @@ Question : Qui a déjà entendu parlé de Kyverno ?
 ##==##
 <!-- .slide: class="flex-row center" -->
 ![h-600](./assets/bigbang.jpg)
-Le début est toujours le Big Bang : <BR> -13,8 milliards d'années
+Le début de l'Histoire est toujours le Big Bang : <BR> -13,8 milliards d'années
 
 ##==##
 <!-- .slide: class="flex-row center" -->
@@ -39,6 +39,7 @@ Linux : 25 Août 1991
 <!-- .slide: class="flex-row center" -->
 ![h-500](./assets/context/16-lxc.webp)
 ![h-500](./assets/context/17-docker.png)
+L'invention des conteneurs...<BR>
 LXC : 6 Août 2008 <BR>
 Docker : 20 Mars 2013
 

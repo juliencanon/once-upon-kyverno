@@ -1,11 +1,9 @@
 <!-- .slide: class="transition-bg-sfeir-1" -->
-## Take Away
+## Le mot de la fin
 
 - Kyverno outil puissant et bon allié
 
-- Mis un point d'honneur à utiliser le framework sfeir-school
+- 1ère utilisation du framework sfeir-school
 
-- Merci pour votre feedbaxk (open feedback)
-
-- Poursuivre sur d'autres share ou des CFP
+- Merci pour votre feedback (open feedback)
 

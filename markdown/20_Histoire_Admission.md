@@ -86,6 +86,8 @@ spec:
 ## Améliorations :
 - Policies plus lisibles
 - Collection sur étagère
+<BR><BR>
+<BR><BR>
 ## Inconvénients :
 - La performance (parser du yaml est bien plus lourd qu'un moteur d'évaluation)
 - Sorti des policies fournies, difficile d'en écrire de nouvelles (la syntaxe n'est pas au niveau d'un langage)
@@ -93,11 +95,11 @@ spec:
 
 
 ##==##
-<!-- .slide: class="transition-bg-sfeir-4" -->
+<!-- .slide: class="transition-bg-sfeir-2" -->
 ## Kubernetes propose une implémentation native :
-- ValidatingAdmissionPolicy et MutatingAdmissionPolicy
-   (link VAP : https://github.com/datreeio/validating-admission-policy)
-
+- ValidatingAdmissionPolicy et MutatingAdmissionPolicy <BR>
+    https://github.com/datreeio/validating-admission-policy
+<BR><BR>
 - Apparaît en beta dans kubernetes 1.26 (8 Décembre 2022)
 - Passe en GA dans kubernetes 1.30 (17 Avril 2024)
 - Se base sur le CEL : un moteur d'évaluation d'expression simple et performant
